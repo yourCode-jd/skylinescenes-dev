@@ -14,7 +14,7 @@ export default async function Nav() {
       <div className="relative py-4 mx-auto duration-200 bg-white ">
         <nav className="content-container flex items-center justify-between w-full h-full">
           {/* sideMenu */}
-          <div className="h-full flex items-center lg:hidden order-1 ml-1">
+          <div className="h-full flex items-center lg:hidden order-1 md:ml-2 ml-1">
             <div className="h-full">
               <SideMenu />
             </div>
