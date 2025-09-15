@@ -59,7 +59,7 @@ export default function Hero() {
                   <h1 className="text-[26px] md:text-[50px] text-white font-semibold leading-tight capitalize" > {slide.title} </h1>
                   <h2 className="text-sm md:text-base text-[#E4E4E4] font-medium leading-snug max-w-md" > {slide.subtitle} </h2>
                   <Link href={slide.link} target="_blank" className="mt-8">
-                    <Button variant="secondary" className="flex items-center text-white text-sm sm:text-base uppercase font-semibold bg-[#343636] px-6 sm:px-8 py-3 hover:bg-[#4c4e4e] outline-none border-none rounded-none" > More info on prints </Button>
+                    <Button variant="secondary" className="customBtn flex items-center text-white text-sm sm:text-base uppercase font-semibold bg-[#343636] px-6 sm:px-8 py-3 hover:bg-[#4c4e4e] outline-none border-none rounded-none" > More info on prints </Button>
                   </Link>
                 </div>
               </div>
