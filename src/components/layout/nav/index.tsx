@@ -8,13 +8,13 @@ export default async function Nav() {
 
   return (
     <section className="sticky top-0 inset-x-0 z-50 group">
-      <div className="h-10 flex justify-center items-center text-white text-xs sm:text-sm text-center md:text-base font-medium uppercase bg-[#343636] leading-tight px-1">
-        <p>Summer is here!  Sale!! use code spring15 for 15% off canvas and prints</p>
+      <div className="h-10 flex justify-center items-center text-white text-xs sm:text-sm text-center md:text-base font-medium uppercase bg-[#343636] leading-tight px-5">
+        <p>Summer is here! Sale!! use code spring15 for 15% off canvas and prints</p>
       </div>
-      <div className="relative py-4 mx-auto border-b duration-200 bg-white ">
+      <div className="relative py-4 mx-auto duration-200 bg-white ">
         <nav className="content-container flex items-center justify-between w-full h-full">
           {/* sideMenu */}
-          <div className="h-full flex items-center lg:hidden order-1 ml-5">
+          <div className="h-full flex items-center lg:hidden order-1 ml-1">
             <div className="h-full">
               <SideMenu />
             </div>

@@ -24,7 +24,7 @@ export default function About() {
                 {aboutContent.map((item) => (
                     <div
                         key={item.id}
-                        className="grid grid-cols-1 lg:grid-cols-2 items-center gap-6 md:gap-12 lg:gap-24 mt-[10px] mb-0 md:mb-[50px] lg:mb-[90px]"
+                        className="grid grid-cols-1 lg:grid-cols-2 items-center gap-6 md:gap-12 lg:gap-24 mt-[10px] mb-0"
                     >
                         {/* Left Side - Image */}
                         <div>

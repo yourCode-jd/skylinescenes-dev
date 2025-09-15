@@ -62,7 +62,7 @@ export default function ChooseProduct() {
                     From digital stock to fine art prints, canvas, metal, and acrylic—select the format that best brings your images to life.
                 </p>
 
-                <ul className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10 my-[30px]  md:my-[50px] lg:my-[90px]'>
+                <ul className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10 mt-[30px]  md:mt-[50px] lg:mt-[90px]'>
                     {chooseProduct.map((item) => (
                         <li
                             key={item.id}
