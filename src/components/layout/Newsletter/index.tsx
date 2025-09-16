@@ -19,7 +19,7 @@ export default function Newsletter() {
                         <input
                             type="email"
                             placeholder="Enter your email"
-                            className="flex-1 px-4 py-3 text-base text-[#808080] font-normal focus:outline-none focus:ring-2 focus:ring-black"
+                            className="bg-white flex-1 px-4 py-3 text-base text-[#808080] font-normal focus:outline-none focus:ring-2 focus:ring-black"
                             required
                         />
                         <button

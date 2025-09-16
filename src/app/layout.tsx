@@ -3,6 +3,7 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/layout/nav";
 import Footer from "@/components/layout/footer";
+import Newsletter from "@/components/layout/Newsletter";
 const dmSans = DM_Sans({
   weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export default function RootLayout({
       >
         <Nav />
         {children}
+        <Newsletter />
         <Footer />
       </body>
     </html>

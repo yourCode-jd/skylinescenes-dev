@@ -5,7 +5,6 @@ import ChooseProduct from "@/components/shared/home/ChooseProduct";
 import Features from "@/components/shared/home/Features";
 import Gallery from "@/components/shared/home/Gallery";
 import Hero from "@/components/shared/home/Hero";
-import Newsletter from "@/components/shared/home/Newsletter";
 import Offer from "@/components/shared/home/Offer";
 import Sell from "@/components/shared/home/Sell";
 
@@ -21,7 +20,6 @@ export default function Home() {
       <About />
       <Sell />
       <Blogs />
-      <Newsletter />
     </main>
   );
 }
