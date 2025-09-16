@@ -19,7 +19,7 @@ export default function Nav() {
 
       {/* Main navbar */}
       <div
-        className={`relative py-4 mx-auto duration-200 bg-white ${isHome ? "" : "shadow-sm"
+        className={`relative  mx-auto duration-200 bg-white ${isHome ? "" : "shadow-sm"
           }`}
       >
         <nav className="content-container flex items-center justify-between w-full h-full">
@@ -47,7 +47,7 @@ export default function Nav() {
               <li key={link.id} className="list-none relative">
                 <Link
                   href={link.href}
-                  className="flex items-center capitalize text-base xl:text-lg text-[#333] font-normal lg:py-6"
+                  className="flex items-center capitalize text-base xl:text-lg text-[#333] font-normal lg:py-8"
                 >
                   {link.label}
                   {link.subMenu && (
