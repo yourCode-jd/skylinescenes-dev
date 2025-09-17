@@ -19,7 +19,7 @@ export default function Nav() {
 
       {/* Main navbar */}
       <div
-        className={`relative  mx-auto duration-200 bg-white ${isHome ? "" : "shadow-sm"
+        className={`relative  mx-auto duration-200 bg-white py-3 lg:py-0 ${isHome ? "" : "shadow-sm"
           }`}
       >
         <nav className="content-container flex items-center justify-between w-full h-full">

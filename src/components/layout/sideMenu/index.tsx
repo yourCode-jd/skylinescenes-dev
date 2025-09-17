@@ -30,7 +30,7 @@ const SideMenu = () => {
       <button
         onClick={() => setOpen(true)}
         aria-label="Open menu"
-        className="p-2 focus:outline-none"
+        className="p-2 pr-0 focus:outline-none"
       >
         <Image
           src="/icons/hamburger.svg"
